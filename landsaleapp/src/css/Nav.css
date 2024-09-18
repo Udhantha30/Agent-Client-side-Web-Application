@@ -1,0 +1,123 @@
+.content-0 {
+  width: 100%;
+  /* background-color: darkgray; */
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(202, 202, 203);
+}
+
+.content-1 {
+  width: 1200px;
+  /* background-color: darkseagreen; */
+  display: flex;
+}
+
+.content-2 {
+  width: 170px;
+  height: 50px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+}
+
+.content-2 img {
+  width: 130px;
+  height: 40px;
+}
+
+.content-3 {
+  width: 900px;
+  height: 50px;
+  /* background-color: darkorange; */
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  justify-content: space-between;
+}
+
+.content-3-a {
+  height: 100%;
+  /* background-color: lightcoral; */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content-3-a:hover {
+  text-decoration: underline;
+  color: rgb(91, 91, 232);
+}
+
+.content-4 {
+  width: 130px;
+  height: 50px;
+  /* background-color: deeppink; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.content-4 button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.content-4 button i {
+  margin-right: 5px;
+}
+
+.dropdown-container {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 50px; 
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  animation: dropdown 0.4s ease-in-out;
+}
+
+@keyframes dropdown {
+  from {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.dropdown-links a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-weight: 800;
+}
+
+.dropdown-links a:hover {
+  color: #5b5be8;
+}
+
+.close-icon {
+  position: absolute;
+  top: 5px;
+  right: 30px; 
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #000; 
+}

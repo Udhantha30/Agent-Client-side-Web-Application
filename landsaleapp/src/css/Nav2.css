@@ -1,0 +1,74 @@
+.nav-con-1 {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background-color: rgb(5, 5, 57);
+  justify-content: center;
+  z-index: 2;
+}
+
+.nav-con-2 {
+  width: 1200px;
+  height: 60px;
+  background-color: rgb(5, 5, 57);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-con-2-i,
+.nav-con-2-ii,
+.nav-con-2-iii,
+.nav-con-2-iv,
+.nav-con-2-v {
+  width: auto;
+  height: 60px;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+  cursor: pointer;
+}
+
+.nav-con-2-i i,
+.nav-con-2-ii i,
+.nav-con-2-iii i,
+.nav-con-2-iv i,
+.nav-con-2-v i {
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.ri-arrow-down-s-line,
+.ri-arrow-up-s-line {
+  margin-left: 20px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 60px;
+  right: 170px;
+  background-color: rgb(5, 5, 57);
+  width: 130px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.dropdown li {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown li:hover {
+  background-color: rgb(25, 25, 76);
+}

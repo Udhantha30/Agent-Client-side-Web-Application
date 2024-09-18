@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.con-1 {
+  width: 100%;
+  height: 100vh;
+  /* background-color: coral; */
+  display: flex;
+  justify-content: center;
+}
+
+.con-2 {
+  width: 1000px;
+  height: 100vh;
+  /* background-color: cyan; */
+}
+
+.con-3 {
+  width: calc(100% - 20px);
+  height: 80px;
+  background-color: rgb(245, 245, 246);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0 10px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.con-4 {
+  width: calc(100% - 20px);
+  height: 420px;
+  background-color: rgb(245, 245, 246);
+  padding: 0 10px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.con-5 {
+  width: 100%;
+  height: 100px;
+  /* background-color: brown; */
+  display: flex;
+}
+
+.con-5-a {
+  width: calc(50% - 10px);
+  height: 100px;
+  /* background-color: rgb(98, 102, 102); */
+  padding-right: 10px;
+}
+
+.con-5-a-1 {
+  width: 40%;
+  /* background-color: lemonchiffon; */
+}
+
+.con-5-a-2 {
+  width: 60%;
+  /* background-color: lightblue; */
+}
+
+.con-5-b {
+  width: calc(50% - 10px);
+  height: 100px;
+  /* background-color: rgb(44, 91, 178); */
+  padding-right: 10px;
+}
+
+.con-5-a,
+.con-5-b {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.con-5-a select,
+.con-5-b select,
+.con-5-a-2 input {
+  width: 100%;
+  height: 35px;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.con-5-a-2 .date-picker {
+  width: 95%;
+}
+
+.con-5-a-2 input {
+  padding: 0 6px;
+}
+
+.twodrop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twodrop select {
+  width: 48%;
+}
+
+.marg {
+  width: calc(40% - 50px);
+  padding-left: 50px;
+  /* background-color: blue; */
+}
+
+.search-bttn {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.search-bttn button {
+  width: 200px;
+  height: 60px;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(226, 227, 229);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.error-con {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1000;
+}
+
+.error-con i {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+}
+
+.error-con p {
+  margin: 20px 0;
+  color: black;
+  font-weight: 500;
+}
+
+.error-con button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #cccdcf;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-weight: 600;
+}
